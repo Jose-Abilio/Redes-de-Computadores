@@ -5,7 +5,92 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+    display: flex;
+    flex-direction: column;
+    height: 1080px;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    height: 200px;
+    width: 1980px;
+    background-color:	#1F2937 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.navbar > div {
+    border: 1px solid white;
+    width: 80px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.navbar > div:hover {
+    background-color: rgba(255, 255, 255, 0.404);
+}
+
+.navbar > img {
+    width: 150px;
+    height: 150px;
+}
+
+.conteudo {
+    height: 760px;
+    width: 1980px;
+    background-color: #F9FAFB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.conteudo > div {
+    background-color: #1F2937;
+    height: 500px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.conteudo > div > img {
+    width:420px;
+    height: 380px;
+    border: 1px solid white;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.conteudo > div > p {
+    color: white;
+    font-family: Cormorant Garamond;
+}
+
+.footer{
+    height: 120px;
+    width: 1980px;
+    background-color: #111827;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer > p {
+    color: white;
+}
+    </style>
 </head>
 <body>
     <div class="navbar">
